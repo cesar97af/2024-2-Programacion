@@ -23,12 +23,12 @@ def obtener_datos_usuario():
     
     # Solicitar alturas iniciales
     alturas_iniciales = list(
-        map(float, input("Ingresa una lista de alturas iniciales (separadas por comas, en metros): ").split(","))
+        map(float, input("Ingresa una lista de alturas iniciales (separe por comas, en metros): ").split(","))
     )
     
     # Solicitar alturas a calcular
     alturas_actuales = list(
-        map(float, input("Ingresa una lista de alturas actuales (separadas por comas, en metros): ").split(","))
+        map(float, input("Ingresa una lista de alturas actuales (separe por comas, en metros): ").split(","))
     )
     
     return masa, alturas_iniciales, alturas_actuales
